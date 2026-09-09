@@ -17,6 +17,8 @@
     background-color: #151B23;
     border-radius: 20px;
     display: flex;
+    position:relative;
+    right:100px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -124,7 +126,8 @@ pre{
     color: rgb(255, 212, 59);
     position:relative;
     bottom:265px;
-    left:265px;
+    left:185px;
+    z-index: 1;
 }
 
 .forgot{
