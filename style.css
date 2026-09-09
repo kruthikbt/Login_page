@@ -1,0 +1,136 @@
+*{
+    margin:0px;
+}
+
+.container{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#0B0F14;
+}
+
+.login_card{
+    height:500px;
+    width:400px;
+    background-color: #151B23;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:9px solid #e0b116;
+}
+
+.choose_acc button{
+    height:40px;
+    width:170px;
+    padding:0px;
+    font-size: 15px;
+    position:relative;
+    bottom:30px;
+}
+
+.intro{
+    position:relative;
+    bottom:10px;
+    color:#F8FAFC;
+}
+
+#or{
+    position:relative;
+    bottom:20px;
+}
+
+.select_tag input{
+    width:180px;
+    height:30px;
+}
+
+.remember_me input{
+    width: 20px;
+    height: 30px;
+    position: relative;
+    bottom:10px;
+    right:34px;
+}
+
+.remember_me h3{
+    position:relative;
+    bottom:40px;
+    right:7px;
+    color:#F8FAFC;
+}
+
+.border{
+    border:1px solid #CBD5E1;
+   background-color: #F1F5F9;
+   color: rgb(30, 48, 80);
+   font-size: 160px;
+}
+
+.border:hover{
+    background-color: cadetblue;
+    color:white;
+}
+
+.margin{
+    border:1px solid black;
+    background-color:#0F141B;
+    color: #F8FAFC;
+    border: 1px solid #334155;
+    height:30px;
+    width:200px;
+}
+ 
+
+.margin:hover{
+    border:2.5px solid black;
+}
+
+.signin button{
+    width:380px;
+    height:30px;
+    font-size:25px;
+    text-align: center;
+    padding-right: 15px;
+    padding-bottom: 35px;
+    border-radius:14px;
+    background-color: #e0b116;
+    position:relative;
+    top:8px;
+}
+
+.signin:hover button{
+    background-color: blue;
+    color:#F4F7FB;
+    border:2px groove black;
+}
+
+.mail_select_tag h2{
+    color:#F8FAFC;
+}
+.Password_select_tag{
+    color:#F8FAFC;
+}
+
+pre{
+    color:#F8FAFC;
+}
+
+.Profile_icon i{
+    font-size: 110px;
+    color: rgb(255, 212, 59);
+    position:relative;
+    bottom:265px;
+    left:265px;
+}
+
+.forgot{
+    color:white;
+    position:relative;
+    bottom:60px;
+    left:125px;
+    color:rgb(117, 117, 220);
+}
